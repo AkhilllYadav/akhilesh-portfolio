@@ -31,7 +31,7 @@ const FooterComponent = () => {
             <p>Phone: <a href="tel:+1234567890">+918948890610</a></p>
             <div className="social-media">
               <a href="https://x.com/Akhilll_yad" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-x-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
               </a>
               <a href="https://www.linkedin.com/in/akhilesh-kumar-yadav-61501b1b2/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
