@@ -1,10 +1,10 @@
 // Before
-import React, { useState } from 'react';
+import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import './styles/HeaderComponent.css';
 
 const HeaderComponent = () => {
-  const [scrolled, setScrolled] = useState(false); // Unused variable
+  // const [scrolled, setScrolled] = useState(false); // Unused variable
   
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
