@@ -1,0 +1,81 @@
+.hero-container {
+  padding: 4rem 1rem; /* Adjust padding for better spacing on smaller screens */
+  background-color: #ffffff;
+  background-image: radial-gradient(#c053e8 0.7px, #ffffff 0.7px);
+  background-size: 14px 14px;
+  width: 100%; /* Ensures full-width coverage */
+  margin: 0; /* Remove any margin */
+}
+
+.hero-container h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #822cf3, #00f7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 1rem; /* Adds space below the heading */
+}
+
+.hero-container p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem; /* Adds space below the paragraph */
+}
+
+.hero-container .button-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem; /* Adds space between buttons */
+  justify-content: center; /* Centers the buttons horizontally */
+}
+
+.hero-container .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container .image-container img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px; /* Maximum width for the image */
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    padding: 3rem 1rem; /* Adjust padding for medium screens */
+  }
+
+  .hero-container h1 {
+    font-size: 2.5rem; /* Slightly smaller heading on medium screens */
+  }
+
+  .hero-container p {
+    font-size: 1.125rem; /* Slightly smaller paragraph text on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 2rem 0.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .hero-container h1 {
+    font-size: 2rem; /* Smaller heading on smaller screens */
+  }
+
+  .hero-container p {
+    font-size: 1rem; /* Smaller paragraph text on smaller screens */
+  }
+
+  .hero-container .button-group {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    align-items: center; /* Center buttons horizontally */
+  }
+
+  .hero-container .image-container img {
+    max-width: 100%; /* Make the image responsive */
+  }
+}

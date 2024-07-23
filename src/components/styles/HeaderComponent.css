@@ -1,0 +1,43 @@
+.custom-button {
+  background-color: #007bff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #121111;
+  border: 2px solid #ffffff;
+  transform: scale(1.1);
+}
+
+.navbar .nav-link {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ddd;
+  transform: scale(1.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .custom-button {
+    margin-top: 10px;
+  }
+}

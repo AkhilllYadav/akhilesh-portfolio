@@ -1,0 +1,67 @@
+.projects-section-wrapper {
+  width: 100vw; /* Ensure it covers the full viewport width */
+  margin-left: calc(-50vw + 50%); /* Center it */
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#c053e8 0.7px, #ffffff 0.7px);
+  background-size: 14px 14px;
+}
+
+.projects-section {
+  padding: 4rem 0; /* Space above the projects section */
+}
+
+.project-card {
+  border: 2px solid #007bff; /* Blue border for visual emphasis */
+  border-radius: 15px; /* Rounded corners for the card */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  overflow: hidden; /* Ensures no content overflows outside the card */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for hover */
+}
+
+.project-card img {
+  width: 100%; /* Image spans the full width of the card */
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image covers the card without distortion */
+}
+
+.project-card .card-body {
+  padding: 1rem; /* Padding inside the card body */
+}
+
+.project-card .card-title {
+  font-size: 1.25rem; /* Slightly larger font for the card title */
+  margin-bottom: 0.5rem; /* Space below the card title */
+}
+
+.project-card .card-text {
+  font-size: 1rem; /* Standard font size for the card text */
+  color: #555; /* Slightly lighter color for text */
+}
+
+.project-buttons {
+  display: flex; /* Flexbox layout for buttons */
+  gap: 10px; /* Space between buttons */
+  margin-top: 1rem; /* Space above the buttons */
+}
+
+.project-buttons .btn {
+  flex: 1; /* Equal width for buttons */
+  padding: 10px; /* Padding inside buttons */
+  text-align: center; /* Center text in buttons */
+  border-radius: 5px; /* Slightly rounded corners for buttons */
+}
+
+@media (max-width: 768px) {
+  .project-buttons {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+  }
+
+  .project-buttons .btn {
+    margin-top: 10px; /* Space between stacked buttons */
+  }
+}

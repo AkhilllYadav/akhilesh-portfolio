@@ -1,0 +1,27 @@
+.skills-section {
+  margin-top: 2rem;
+  
+}
+
+.skills-table {
+  width: 100%;
+}
+
+.skills-table th, .skills-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.skills-table .skill-card {
+  width: 100px; /* Adjust width for table format */
+  height: auto;
+  margin: auto;
+}
+
+.skills-table .skill-image {
+  height: 60px; /* Adjust image height for table format */
+}
+
+.skills-table .skill-title {
+  font-size: 0.875rem; /* Adjust font size for table format */
+}

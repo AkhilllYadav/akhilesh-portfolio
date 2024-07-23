@@ -1,0 +1,23 @@
+.skill-card {
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 200px; /* Adjust the maximum width */
+  margin: auto;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-image {
+  height: 80px; /* Adjust image height */
+  object-fit: fill;
+}
+
+.skill-title {
+  text-align: center;
+  font-size: 1rem; /* Adjust font size */
+}

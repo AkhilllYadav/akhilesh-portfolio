@@ -1,0 +1,69 @@
+.about-section {
+  padding: 4rem 0;
+  background-color: #ffffff;
+  
+}
+
+
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.text-item{
+  text-align: center;
+  padding: 8%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.about-section p {
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.stat-card {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card .card-body {
+  text-align: center;
+}
+
+.stat-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card .card-text {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.stat-number {
+  font-size: 2rem; /* Adjust this size to make the number larger */
+  font-weight: bold;
+  background: linear-gradient(45deg, #8327fc, #1da2a7); /* Gradient color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Required for gradient text color */
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 3rem 0;
+  }
+
+  .stat-card {
+    margin-bottom: 1rem;
+  }
+}

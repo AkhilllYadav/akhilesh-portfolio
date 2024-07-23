@@ -1,0 +1,106 @@
+.experience-section {
+  margin-top: 2rem;
+  position: relative;
+  padding: 4rem 0;
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#c053e8 0.7px, #ffffff 0.7px);
+  background-size: 14px 14px;
+  min-height: 100vh; /* Ensures the section covers the full height of the viewport */
+  padding-bottom: 2rem; /* Adds padding at the bottom for better spacing */
+  width: 100%; /* Ensures the section covers the full width of the viewport */
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto; /* Center the timeline within the container */
+  max-width: 1200px; /* Optional: Set a maximum width for better readability */
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #007bff;
+  z-index: 1;
+}
+
+.experience-card-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.experience-card-container.left .experience-card {
+  margin-right: auto;
+}
+
+.experience-card-container.right .experience-card {
+  margin-left: auto;
+}
+
+.experience-card {
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.experience-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold; /* Optional: Add font weight for emphasis */
+}
+
+.experience-card .card-subtitle {
+  font-size: 1rem;
+  color: #555;
+}
+
+.experience-card .card-text {
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.timeline-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 80px; /* Adjust as needed */
+  height: auto;
+  border-radius: 10%; /* Optional: Round the logo */
+  margin-bottom: 1rem; /* Space below the image */
+}
+
+@media (max-width: 768px) {
+  .experience-card-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-card-container.left .experience-card,
+  .experience-card-container.right .experience-card {
+    width: 100%;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .company-logo {
+    width: 60px; /* Adjust logo size for smaller screens */
+  }
+}

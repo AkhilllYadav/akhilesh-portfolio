@@ -1,0 +1,14 @@
+/* src/components/styles/Certificate.css */
+.container {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px; /* Add space below each card */
+}
+
+.card-img-top {
+  max-height: 200px; /* Set a max-height to keep image dimensions consistent */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
+}
+

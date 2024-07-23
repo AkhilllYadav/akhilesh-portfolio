@@ -1,0 +1,85 @@
+.education-section {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  width: 100vw; /* Full width of the viewport */
+  overflow: hidden; /* Prevent horizontal scroll */
+}
+
+.education-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333; /* Ensure good visibility */
+}
+
+.education-card {
+  border: none;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem; /* Adds spacing between cards */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  overflow: hidden; /* Ensures no overflow from the rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education-card .card-body {
+  padding: 2rem; /* Ensures consistent padding inside the card */
+}
+
+.university-logo {
+  max-width: 80%; /* Responsive size for the logo */
+  height: auto;
+  padding: 1rem;
+  margin: auto; /* Centers the logo within its column */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .education-section {
+    padding: 3rem 1rem;
+  }
+
+  .education-card {
+    margin-bottom: 1rem;
+  }
+
+  .education-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .education-card .card-body {
+    padding: 1.5rem;
+  }
+
+  .education-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .university-logo {
+    max-width: 90%; /* Adjusts logo size on smaller screens */
+  }
+}
