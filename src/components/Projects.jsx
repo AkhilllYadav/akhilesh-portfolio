@@ -31,7 +31,7 @@ const Projects = () => {
       description: 'Fetching Images related with titles of Netflix Movies, TV Shows and many more',
       liveUrl: 'https://title-images-j6x24vjfs-akhilll-yadavs-projects.vercel.app/',
       githubUrl: 'https://github.com/AkhilllYadav/title-images-API',
-      imageUrl: 'https://github.com/AkhilllYadav/title-images-API/blob/main/Project-ss-Netflix-title-images.png'
+      imageUrl: 'https://github.com/AkhilllYadav/title-images-API/blob/main/Project-ss-Netflix-title-images.png?raw=true'
     },
     
   ];
