@@ -26,6 +26,13 @@ const Projects = () => {
       githubUrl: 'https://github.com/AkhilllYadav/1099-ChatGPT-Marketing-Prompt',
       imageUrl: 'https://akhilllyadav.github.io/1099-ChatGPT-Marketing-Prompt/1090%20a%C4%B1%20prompts%20(1).png'
     },
+    {
+      title: 'Netflix-title-image-API',
+      description: 'Fetching Images related with titles of Netflix Movies, TV Shows and many more',
+      liveUrl: 'https://title-images-j6x24vjfs-akhilll-yadavs-projects.vercel.app/',
+      githubUrl: 'https://github.com/AkhilllYadav/title-images-API',
+      imageUrl: 'https://github.com/AkhilllYadav/title-images-API/blob/main/Project-ss-Netflix-title-images.png'
+    },
     
   ];
 
