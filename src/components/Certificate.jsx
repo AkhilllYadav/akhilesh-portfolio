@@ -17,15 +17,11 @@ function Certificate() {
       text: 'Taught by Tim Buchalka, Lead Instructor on Udemy.',
     },
     {
-      title: 'Introduction to Artificial Intelligence (AI)',
-      image: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Y3XEN5GQ4Y83/CERTIFICATE_LANDING_PAGE~Y3XEN5GQ4Y83.jpeg',
+      title: 'IBM AI Developer Professional Certificate',
+      image: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~230298V5KV39/CERTIFICATE_LANDING_PAGE~230298V5KV39.jpeg',
       text: 'Offered by IBM',
-    },
-    {
-      title: 'Introduction to Software Engineering',
-      image: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~SDYLVS75QL8K/CERTIFICATE_LANDING_PAGE~SDYLVS75QL8K.jpeg',
-      text: 'Offered by IBM',
-    },
+    }
+   
    
   ];
 
