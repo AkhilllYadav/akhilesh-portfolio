@@ -1,4 +1,11 @@
 const educationData = [
+    {
+    university: "IIT DELHI",
+    year: "2024 - 2025",
+    courses: "AI/ML for Industries",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/sa/6/66/IIT_Delhi_logo.png", // Replace with actual logo URL
+    place: "New Delhi"
+  },
   {
     university: "Dr. APJ Abdul Kalam Technical University",
     year: "2020 - 2024",
