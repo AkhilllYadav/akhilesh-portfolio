@@ -23,7 +23,7 @@ function App() {
       subtitle="Discover my projects, skills, and experience."
        buttonText1="Download CV"
          buttonText2="Contact Me"
-          imageUrl="https://media.licdn.com/dms/image/D5603AQHt9lkW7WgWJg/profile-displayphoto-shrink_800_800/0/1707206460153?e=1727308800&v=beta&t=BvxVtQSOAk3tf8SzKYWEO3ITzscOfDAQBt9_WwsVyzw"
+          imageUrl="https://media.licdn.com/dms/image/v2/D5603AQHt9lkW7WgWJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707206460153?e=1739404800&v=beta&t=aSiYCBF99VQENQiavU5JRzAxM8QvYriWq5H7yKOx64Y"
           cvLink="https://docs.google.com/document/d/1D5i8O6ZLhjNACBYBH7_bxlKTA5TQwADz7Rcy7LaIqw8/edit?usp=sharing" // Replace with your actual CV link
 />
 
