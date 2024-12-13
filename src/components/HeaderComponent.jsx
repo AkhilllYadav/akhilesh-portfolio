@@ -18,10 +18,11 @@ const HeaderComponent = () => {
           <Nav className="mx-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#education">Education</Nav.Link>
+            
             <Nav.Link href="#certificate">Certificate</Nav.Link>
           </Nav>
           <Button variant="primary" className="custom-button d-none d-lg-inline-block">
