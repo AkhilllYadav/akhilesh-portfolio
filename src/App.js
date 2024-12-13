@@ -28,10 +28,11 @@ function App() {
 />
 
       <AboutSection/>
+            <EducationComponent education={educationData} />
       <Experience/>
       <SkillsSection/>
       <Projects />
-      <EducationComponent education={educationData} />
+      
       <Certificate/>
       <ContactSection/>
       <FooterComponent/>
