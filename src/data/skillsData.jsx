@@ -1,29 +1,38 @@
 const skillsData = {
   'Languages': [
-    { title: 'Java', image: 'https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Java.component.complex-narrative-xl.ts=1713770501073.png/content/adobe-cms/us/en/products/instana/supported-technologies/java-monitoring/_jcr_content/root/table_of_contents/body/content_section_styled/content-section-body/complex_narrative/logoimage' },
-    // { title: 'Python', image: 'https://www.unite.ai/wp-content/uploads/2022/07/Python-Libraries-used-for-Graphical-User-Interface.png' },
-    { title: 'JavaScript', image: 'https://cdn3d.iconscout.com/3d/free/thumb/free-javascript-9294848-7577991.png?f=webp' },
-    { title: 'SQL', image: 'https://optim.tildacdn.one/tild6238-3035-4335-a333-306335373139/-/resize/824x/-/format/webp/IMG_3349.jpg' },
-    // Add more skills
+    { title: 'Python', image: 'https://www.python.org/static/community_logos/python-logo.png' },
+    { title: 'Java', image: 'https://www.oracle.com/a/tech/img/cb88-java-logo-001.jpg' },
+    { title: 'JavaScript', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' },
+    { title: 'SQL', image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
+  ],
+  'Data Analysis & Visualization': [
+    { title: 'NumPy', image: 'https://numpy.org/images/logo.svg' },
+    { title: 'Pandas', image: 'https://pandas.pydata.org/static/img/pandas_white.svg' },
+    { title: 'Matplotlib', image: 'https://matplotlib.org/_static/images/logo2.svg' },
+    { title: 'Seaborn', image: 'https://seaborn.pydata.org/_static/logo-wide-lightbg.svg' },
+  ],
+  'Machine Learning Frameworks': [
+    { title: 'TensorFlow', image: 'https://www.tensorflow.org/images/tf_logo_social.png' },
+    { title: 'Scikit-Learn', image: 'https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png' },
+    { title: 'Keras', image: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg' },
+  ],
+  'Databases': [
+    { title: 'MongoDB', image: 'https://www.mongodb.com/assets/images/global/leaf.svg' },
+    { title: 'SQL', image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
   ],
   'Frontend Technologies': [
-    { title: 'HTML', image: 'https://logowik.com/content/uploads/images/492_html5.jpg' },
-    { title: 'CSS', image: 'https://media.licdn.com/dms/image/D4D12AQH0aFMY6G2rHQ/article-cover_image-shrink_720_1280/0/1689263376287?e=2147483647&v=beta&t=X4o6_ZtUzTQ_OTBzY8dYJkOzQg0m0Pk4sCzeB-rX_gE' },
-    { title: 'Bootstrap', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRknghCHUQ2Fx3Hr6pGILLIlw8wKJxMBcHOqYzXPTp2zjaenG8yOkf5F2Ys9zSHNta88&usqp=CAU' },
-    // Add more skills
+    { title: 'HTML', image: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg' },
+    { title: 'CSS', image: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg' },
+    { title: 'Bootstrap', image: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg' },
   ],
   'Tools & Technologies': [
-    { title: 'Git', image: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F87gdibqpr93vpfpqj7xm.png' },
-    { title: 'Firebase', image: 'https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png' },
-    // Add more skills
+    { title: 'Git', image: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
+    { title: 'Firebase', image: 'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png' },
   ],
   'Frameworks': [
-   
-    { title: 'React JS', image: 'https://miro.medium.com/v2/resize:fit:960/1*3LG5LJj8_GhgI4HdE4NIYQ.jpeg' },
-    { title: 'Springboot', image: 'https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png' },
-    // Add more skills
+    { title: 'React JS', image: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+    // { title: 'Spring Boot', image: 'https://spring.io/images/icon-spring-boot-512x512.png' },
   ],
-  
 };
 
 export default skillsData;
