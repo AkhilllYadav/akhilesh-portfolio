@@ -5,20 +5,17 @@ import './styles/AboutSection.css'; // Custom CSS for About section
 const AboutSection = () => {
   return (
     <section id='about' className="about-section">
-       <h2>About Me</h2>
       <Container>
-      
+        <h2>About Me</h2>
         <Row className="align-items-center">
           <Col md={6} className="text-container">
-            {/* <h2>About Me</h2> */}
             <Card className="text-item">
-            <p>
-            Computer Science Engineer with expertise in web development, Android app development, and Java. Skilled in managing projects and implementing effective marketing and branding strategies. Possess a strong motivation to excel and thrive in a team-oriented environment.
-            Passionate about leveraging marketing techniques to enhance brand recognition and drive growth. Demonstrated ability to collaborate with diverse teams and foster effective communication. Committed to achieving shared objectives and contributing to team success. Eager to utilize my skills and motivated mindset to make a meaningful impact.
-            </p>
-            {/* <p>
-              Throughout my career, I have tackled numerous problems across various platforms, and my projects range from frontend applications to full-stack solutions. I am always eager to learn and grow, continuously seeking ways to enhance my expertise and make a meaningful impact in the tech world.
-            </p> */}
+              <p>
+                Experienced AI and ML developer skilled in designing, training, and deploying machine learning models to solve complex problems. Proficient in leading machine learning frameworks such as TensorFlow, Scikit-Learn, and Keras, with hands-on expertise in data preprocessing, feature engineering, and model optimization. Strong foundation in data analysis, exploratory data analysis (EDA), and data visualization using NumPy, Pandas, Matplotlib, and Seaborn to derive actionable insights from large datasets.
+              </p>
+              <p>
+                Expert in working with MongoDB, SQL, and back-end development, applying object-oriented programming (OOP) principles to build scalable, efficient solutions. Passionate about leveraging cutting-edge AI and ML technologies to enhance decision-making processes, automate workflows, and optimize business operations. Continuously advancing skills in artificial intelligence, machine learning, and data science to deliver impactful results and stay ahead of industry trends.
+              </p>
             </Card>
           </Col>
           <Col md={6}>
@@ -28,7 +25,7 @@ const AboutSection = () => {
                   <Card.Body>
                     <Card.Title>Problems Solved</Card.Title>
                     <Card.Text>
-                      <span className="stat-number">150+</span> problems solved on different platforms including LeetCode, Geekforgeeks, and Codeforces.
+                      <span className="stat-number">74</span> problems solved on platforms including LeetCode, GeeksforGeeks, and HackerRank.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -36,9 +33,9 @@ const AboutSection = () => {
               <Col xs={12} md={6}>
                 <Card className="stat-card">
                   <Card.Body>
-                    <Card.Title>Frontend Projects</Card.Title>
+                    <Card.Title>AI/ML Projects</Card.Title>
                     <Card.Text>
-                      <span className="stat-number">10+</span> projects developed with technologies like React, HTML,Bootstrap and Tailwind CSS.
+                      <span className="stat-number">8+</span> AI and machine learning projects involving model development and deployment.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -46,9 +43,9 @@ const AboutSection = () => {
               <Col xs={12} md={6}>
                 <Card className="stat-card">
                   <Card.Body>
-                    <Card.Title>Fullstack Projects</Card.Title>
+                    <Card.Title>Data Analysis Projects</Card.Title>
                     <Card.Text>
-                      <span className="stat-number">5+</span> full-stack projects involving both frontend and backend technologies.
+                      <span className="stat-number">5+</span> data analysis projects utilizing tools like NumPy, Pandas, and Matplotlib.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -56,9 +53,9 @@ const AboutSection = () => {
               <Col xs={12} md={6}>
                 <Card className="stat-card">
                   <Card.Body>
-                    <Card.Title>Mobile Projects</Card.Title>
+                    <Card.Title>Backend Development</Card.Title>
                     <Card.Text>
-                      <span className="stat-number">3+</span> mobile applications developed with Kotlin and Java.
+                      <span className="stat-number">3+</span> backend development projects with MongoDB and SQL databases.
                     </Card.Text>
                   </Card.Body>
                 </Card>
