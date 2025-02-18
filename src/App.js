@@ -28,8 +28,9 @@ function App() {
           cvLink="https://docs.google.com/document/d/1D5i8O6ZLhjNACBYBH7_bxlKTA5TQwADz7Rcy7LaIqw8/edit?usp=sharing" // Replace with your actual CV link
 />
             
-      <IncludeAI/>
+      
       <AboutSection/>
+            <IncludeAI/>
             <EducationComponent education={educationData} />
       <Experience/>
       <SkillsSection/>
