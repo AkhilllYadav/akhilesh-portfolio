@@ -5,6 +5,14 @@ import './styles/Projects.css'; // Custom CSS for Projects section
 
 const Projects = () => {
   const projects = [
+     {
+      title: 'Business Analytics Dashboard',
+      description: 'A comprehensive analytics dashboard built with Streamlit for visualizing and analyzing business metrics across sales, marketing, and customer reviews.',
+      liveUrl: 'https://player.vimeo.com/video/1053849253',
+      githubUrl: 'https://github.com/AkhilllYadav/Business-Analytics',
+      imageUrl: 'https://raw.githubusercontent.com/AkhilllYadav/Business-Analytics/refs/heads/main/Screenshot%202025-02-18%20112758.png'
+    },
+    
     {
       title: 'Indeed Clone',
       description: 'A clone of Indeed built with React, Spring Boot, Hibernate, and MongoDB. Provides job listings, user profiles, and application functionality.',
